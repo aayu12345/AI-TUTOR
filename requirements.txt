@@ -1,8 +1,8 @@
 
 
 streamlit==1.28.0
-langchain==0.0.335
-langchain-core==0.1.50
+langchain
+langchain-core
 langchain-community==0.0.21
 langchain-groq==0.0.1
 python-dotenv==1.0.0

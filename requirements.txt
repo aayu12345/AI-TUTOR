@@ -2,13 +2,13 @@
 
 streamlit==1.28.0
 langchain==0.0.335
-langchain-core==0.0.24
-langchain-community==0.0.17
+langchain-core==0.1.50
+langchain-community==0.0.21
 langchain-groq==0.0.1
-openai==1.2.4
 python-dotenv==1.0.0
 pydantic==1.10.13
 requests==2.31.0
+
 
 
 

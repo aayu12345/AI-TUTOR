@@ -1,6 +1,6 @@
 # QUIZIFY:📚AI STUDY BUDDY
  
- AI-Powered Tutor & Quiz App
+ ###AI-Powered Tutor & Quiz App
  Project Overview
  The AIPowered Tutor & Quiz App is an educational platform that leverages 
 artificial intelligence to provide personalized learning experiences. The application 

@@ -1,37 +1,37 @@
-openai
-langchain
-streamlit
-
-
-
-# langchain==0.3.13
-# langchain-core==0.3.28
-# langchain-community==0.3.13
-# langchain-openai==0.2.14
-
-
-
-
-# use this version for langchain and langchain-community
-
-
-
-# How to run this app : 
-
-
-#uvicorn main:app --reload
-
-#streamlit run app.py
-
-
-
-
-
-# step 👍
-# for creatig environment
-
-conda create -n lang6 python=3.11 -y
-
-conda activate lang6
-
-pip install -r requirements.txt
+# QUIZIFY:📚AI STUDY BUDDY
+ 
+ AI-Powered Tutor & Quiz App
+ Project Overview
+ The AIPowered Tutor & Quiz App is an educational platform that leverages 
+artificial intelligence to provide personalized learning experiences. The application 
+allows users to ask questions on various academic subjects and receive tailored 
+explanations based on their learning preferences. It also generates quizzes to help 
+users test their knowledge.
+ 🛠
+ Tools & Technologies
+ FastAPI Backend framework for creating the API endpoints
+ Streamlit Frontend framework for building the user interface
+ LangChain AI orchestration framework for handling LLM interactions
+ OpenAI API Powers the AI tutoring and quiz generation capabilities
+ Python Primary programming language
+ Pydantic Data validation and settings management
+ Uvicorn ASGI server for running the FastAPI application
+ Python-dotenv For managing environment variables
+ 🏗
+ Architecture & Components
+ Component Architecture
+ The application follows a client-server architecture with three main components:
+  Streamlit Frontend (app.py)
+ 1
+ Personalised Tutor :
+User interface for interacting with the application
+ Collects user preferences and questions
+ Displays personalized explanations and quizzes
+  FastAPI Backend (main.py)
+ RESTful API endpoints for tutoring and quiz generation
+ Handles request validation and error management
+ Integrates with the AI engine
+ AI Engine (ai_engine.py)
+ Core logic for generating personalized tutoring content
+ Handles LLM prompt construction and response parsing
+ Includes error handling and fallback mechanisms

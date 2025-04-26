@@ -18,6 +18,22 @@ users test their knowledge.
 - Python: Primary programming language
 - Python-dotenv: For managing environment variables
 ---
+
+---
+# How to run :
+
+1. firstly create the environment and install all requirements in your environment :
+   
+```bash
+pip install -r requirements.txt
+```
+
+2. run the app2.py in your terminal :
+   
+```bash
+streamlit run app2.py
+```
+
   
 
 

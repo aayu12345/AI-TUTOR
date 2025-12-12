@@ -19,7 +19,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 def get_llm():
     try:
         return ChatGroq(
-        model_name="deepseek-r1-distill-llama-70b",
+        model_name="llama-3.3-70b-versatile",
         temperature=0,
         groq_api_key=GROQ_API_KEY
 
@@ -604,3 +604,4 @@ with tab2:
 # Footer
 st.markdown("---")
 st.markdown("Powered by AI - Your Personal Learning Assistant")
+
